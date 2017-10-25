@@ -9,3 +9,7 @@ class Solution(object):
             sums[lastElementInSubArray] = max(sums[lastElementInSubArray-1]+nums[lastElementInSubArray],nums[lastElementInSubArray])
             
         return max(sums)
+
+s = Solution()
+
+print(s.maxSubArray([1,2,3]))
