@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var myTimer;
+
+function query() {
+	console.log('query');
+	clearInterval(myTimer);
+}
+
+function resetTimer() {
+	clearInterval(myTimer);
+	myTimer = setInterval(query, 1000);
+}
+
+
+</script>
+</head>
+<body>
+
+Input Field: <input type="text" id="queryField" onkeypress="resetTimer()">
+</body>
+</html>
