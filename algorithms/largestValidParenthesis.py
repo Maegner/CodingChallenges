@@ -28,5 +28,3 @@ def largestValidParenthesis(s):
                 largest = max(largest,current)
         i+=1
     return largest
-
-print(largestValidParenthesis("())((())"))
