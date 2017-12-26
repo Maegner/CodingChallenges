@@ -8,8 +8,6 @@ For example, given s = "leetcode", dict = ["leet", "code"].
 Return true because "leetcode" can be segmented as "leet code". 
 """
 
-
-
 def wordBreakAux(s,wordDict,prevSeen):
     if(s in prevSeen):
         return prevSeen[s]
