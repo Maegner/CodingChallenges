@@ -1,3 +1,10 @@
+"""
+Problem:
+    Given an array of string with braces return an array of strings
+    saying for each string if it is a valid braces string or not
+    e.g {}()[] is and {(}) is not
+"""
+
 
 def auxiliarBrace(braces):
     stack = []
